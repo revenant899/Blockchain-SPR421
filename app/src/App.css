@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,49 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #111;
 }
+
+.container {
+  margin-top: 50px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
